@@ -1,0 +1,22 @@
+#timer {
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  color: #2ecc71;
+  padding: 10px;
+  border-radius: 10px;
+  animation: none;
+}
+
+#status {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
